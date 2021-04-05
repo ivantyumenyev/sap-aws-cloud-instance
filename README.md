@@ -40,12 +40,24 @@
 ![image](https://user-images.githubusercontent.com/14922348/113571928-d1b4d400-9649-11eb-93ee-ef0fe8211dfd.png)
 
 
-7) How to request and install "Minisap" license keys https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=526880970
+7) Теперь мы можем подключиться к созданной инстанции и зайти в SAP. Для подключения к удаленному рабочему столу и входа в SAP используем пароль, который указали при создании инстанции. 
+
+![image](https://user-images.githubusercontent.com/14922348/113577574-0c236e80-9654-11eb-844d-4f2d13c5cc4b.png)
+
+![image](https://user-images.githubusercontent.com/14922348/113578899-1e061100-9656-11eb-96d4-4b1db0236897.png)
+
+
 8) Регистрируем нашу установленную систему тут: https://go.support.sap.com/minisap/#/minisap
 
   - Выбираем нужную версию из списка доступных для активации и указываем регистрационные данные. В нашем случае это "NPL - SAP NetWeaver 7.x (Sybase ASE)".
+  - Hardware Key берем из транзакции SLICENSE.
 
-  - Hardware Key берем из транзакции SLICENCE, зайдя в SAP систему под пользователем SAP* и паролем, который мы указывали при установке.
+Более подробно тут https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=526880970
+
+![image](https://user-images.githubusercontent.com/14922348/113579267-9ec50d00-9656-11eb-9b5e-8213e5afb8ed.png)
+
+![image](https://user-images.githubusercontent.com/14922348/113579534-05e2c180-9657-11eb-89b1-d081e475f694.png)
+
 
 9) После генерации мы получаем текстовый файл NPL.txt. Устанавливаем его в систему с помощью кнопки Install New License.
 10) Переходим в тр-цию SECSTORE и запускаем ее выполнение.
