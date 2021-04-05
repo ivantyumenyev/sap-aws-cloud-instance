@@ -34,13 +34,18 @@
 
 6) После успешного создания инстанции мы можем подключиться к SAP системе, либо же скачать файл с настройками для подключения
   На странице созданной инстанции по кнопке Getting started доступен мануал по работе с системой https://caldocs.hana.ondemand.com/caldocs/help/Getting_Started_openSAPWritingTestableCode.pdf
+
+![image](https://user-images.githubusercontent.com/14922348/113571885-bfd33100-9649-11eb-88fb-fb9e44362c5e.png)
+
+![image](https://user-images.githubusercontent.com/14922348/113571928-d1b4d400-9649-11eb-93ee-ef0fe8211dfd.png)
+
+
 7) How to request and install "Minisap" license keys https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=526880970
 8) Регистрируем нашу установленную систему тут: https://go.support.sap.com/minisap/#/minisap
 
-Выбираем нужную версию из списка доступных для активации и указываем регистрационные данные.
-В нашем случае это "NPL - SAP NetWeaver 7.x (Sybase ASE)".
+  - Выбираем нужную версию из списка доступных для активации и указываем регистрационные данные. В нашем случае это "NPL - SAP NetWeaver 7.x (Sybase ASE)".
 
-Hardware Key берем из транзакции SLICENCE, зайдя в SAP систему под пользователем SAP* и паролем, который мы указывали при установке.
+  - Hardware Key берем из транзакции SLICENCE, зайдя в SAP систему под пользователем SAP* и паролем, который мы указывали при установке.
 
 9) После генерации мы получаем текстовый файл NPL.txt. Устанавливаем его в систему с помощью кнопки Install New License.
 10) Переходим в тр-цию SECSTORE и запускаем ее выполнение.
