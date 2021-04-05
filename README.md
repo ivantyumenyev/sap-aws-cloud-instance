@@ -59,12 +59,29 @@
 ![image](https://user-images.githubusercontent.com/14922348/113579534-05e2c180-9657-11eb-89b1-d081e475f694.png)
 
 
-9) После генерации мы получаем текстовый файл NPL.txt. Устанавливаем его в систему с помощью кнопки Install New License.
+9) После генерации мы получаем текстовый файл NPL.txt. Устанавливаем его в систему с помощью кнопки Install New License. Можно создать текстовый файл в удаленной системе и скопировать содержимое из скаченного файла (;
+
+![image](https://user-images.githubusercontent.com/14922348/113580251-0760b980-9658-11eb-9a8f-a885fa5b66aa.png)
+
+![image](https://user-images.githubusercontent.com/14922348/113581336-991cf680-9659-11eb-9b48-abb282630f4e.png)
+
+
 10) Переходим в тр-цию SECSTORE и запускаем ее выполнение.
-11) После использования системы, не забудьте остановить серверы. Иначе у вас быстро набежит счет на оплату.
+
+![image](https://user-images.githubusercontent.com/14922348/113581662-0892e600-965a-11eb-8ede-d458d6e6da4b.png)
+
+![image](https://user-images.githubusercontent.com/14922348/113581780-2c562c00-965a-11eb-80b6-6384be50c96a.png)
+
+
+11) После использования системы, не забудьте остановить серверы. Иначе у вас быстро набежит счет на оплату (((;
 
 Сделать это можно из Cloud Application Library в разделе Instances.
-Либо в разделе урпавления инстанциями AWS EC2: https://console.aws.amazon.com/ec2/
+Либо в разделе управления инстанциями AWS EC2: https://console.aws.amazon.com/ec2/
+
+![image](https://user-images.githubusercontent.com/14922348/113582012-70e1c780-965a-11eb-9d78-ccc6aa152539.png)
+
+![image](https://user-images.githubusercontent.com/14922348/113582128-9373e080-965a-11eb-9bb3-43260d6b9340.png)
+
 
 # Для разработчиков
 1) В системе есть пользователь - DEVELOPER. Он зарегистрирован в 001 манданте и доступен по дефолтному паролю. Сразу скажу - у меня не получилось зайти в систему со стандартным паролем.
