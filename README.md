@@ -78,7 +78,7 @@
 Сделать это можно из Cloud Application Library в разделе Instances.
 Либо в разделе управления инстанциями AWS EC2: https://console.aws.amazon.com/ec2/
 
-![image](https://user-images.githubusercontent.com/14922348/113582012-70e1c780-965a-11eb-9d78-ccc6aa152539.png)
+![image](https://user-images.githubusercontent.com/14922348/113676668-53127200-96ef-11eb-8b55-b64179cca494.png)
 
 ![image](https://user-images.githubusercontent.com/14922348/113582128-9373e080-965a-11eb-9bb3-43260d6b9340.png)
 
